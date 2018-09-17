@@ -1,14 +1,18 @@
 .main-nav {
-
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid black;
 }
 
 .left-nav > ul,
 .right-nav > ul {
-
+  order: 1;
+  flex-wrap:wrap;
 }
 
 .left-nav > ul > li {
-
+  order: 0;
+  flex-wrap: wrap;
 }
 
 .right-nav > ul > li {

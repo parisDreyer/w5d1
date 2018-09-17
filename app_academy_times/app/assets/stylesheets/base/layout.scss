@@ -14,21 +14,23 @@ body {
 
 h a:hover {
 	border-bottom: black;
-	
+
 }
 
 button {
-	// background-color:
-	// border-color:
-	// color:
-	// font-weight:
-	// padding:
+	background-color: SteelBlue;
+	border: 1px solid;
+	color: SeaShell;
+	border-color: grey;
+	font-weight: bold;
+	padding: 8px;
+	margin: 4px;
 	// border-radius:
 	// transition:
-	// font-family:
+	font-family: sans-serif;
 	// text-transform:
-	// font-size:
-	// text-align:
+	font-size: 14px;
+	text-align: center;
 }
 
 button:hover {
