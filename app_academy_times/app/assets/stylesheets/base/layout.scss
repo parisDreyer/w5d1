@@ -32,7 +32,23 @@ button {
 	font-size: 14px;
 	text-align: center;
 }
+button input{
+	background-color: SteelBlue;
+	// border: 1px solid;
+	color: SeaShell;
+	border-color: grey;
+	font-weight: bold;
+	// border-radius:
+	// transition:
+	font-family: sans-serif;
+	// text-transform:
+	font-size: 14px;
+	text-align: center;
+}
 
+i {
+	background-color: inherit;
+}
 button:hover {
 	background-color: DarkBlue;
 	color: blue;
