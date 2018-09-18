@@ -8,7 +8,7 @@
 			</li>
 			<li id="search-modal-btn">
 				<button type="button" name="search">
-					<i class="fa fa-search"></i> <input type="text"value="search">
+					<i class="fa fa-search"></i><input type="text"value="search">
 				</button>
 			</li>
 		</ul>
@@ -21,10 +21,16 @@
 				</button>
 			</li>
 			<li id="sections-sidebar-btn">
-
 				<button type="button" name="Log In">
 					<i class="fas fa-cog"></i> Log In
-				</button></li>
+				</button>
+			</li>
+			<li id="gear-dropdown-btn">
+					<%= render partial: 'shared/gear_dropdown' %>
+					<button type="button" name="button">
+						<i class="fas fa-cog"></i>
+					</button>
+			</li>
 		</ul>
 	</nav>
 </header>

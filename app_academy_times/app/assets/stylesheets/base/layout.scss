@@ -64,7 +64,9 @@ hr {
 	height: 1px;
 	background-color: $light-gray;
 }
-
+.hidden {
+display: none;
+}
 .hr-top, .hr-bottom {
 	width: 100%;
 	margin: 0;
